@@ -1,5 +1,5 @@
 package com.example.mycontacts
-
+import android.util.Log
 import android.location.Address
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -18,7 +18,8 @@ class MainActivity : AppCompatActivity() {
         val dayOfBirth="16"
         val monthOfBirth="March"
         val yearOfBirth="1979"
-        println()("Hello my name is", firstName = "Uthmaan", lastName = Appoles, "I live in CapeTown")
+        Log.d("Hello my name is", firstName + " " + lastName + "I live in " address +)
+
         setContentView(R.layout.activity_main)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
