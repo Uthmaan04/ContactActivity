@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         val ="16"
         val ="March"
         val ="1979"
+        println()
         setContentView(R.layout.activity_main)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
